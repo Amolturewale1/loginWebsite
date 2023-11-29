@@ -1,0 +1,22 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#main{
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    margin-bottom: 0px;
+}
+#main1{
+    width: 350px;
+    height: 550px;
+}

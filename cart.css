@@ -1,0 +1,36 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+#main{
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+}
+#main1{
+    width: 350px;
+    height: 450px;
+}
+#SignUpButton{
+    width: 350px ;
+    border-radius: 5px;        
+    background-color:#FFD814; 
+    height: 30px;
+
+}
+#SignUpButton:hover {
+    background-color: #ffc003;
+    box-shadow: 1px 1px 1px;
+}
+
+button:hover{
+    background-color: white;
+    box-shadow: 1px 1px 1px;    
+}

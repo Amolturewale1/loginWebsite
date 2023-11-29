@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./welcome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div style="background-color: gray; height: 50px; display: flex; align-items: center; justify-content: space-around;" >
+        <h1 style="color: white; ">SnapCart</h1>
+        <div style="display: flex; height: 80%;">
+            <input type="text" style="width: 750px; " placeholder="Search ">
+        </div>
+        <div style="display: flex;  width: 200px; align-items: center; justify-content: space-between;">
+           
+            <P> <i class="fa-solid fa-user"></i>account</P>
+            <p><i class="fa-solid fa-list"></i>orders</p>
+            <p><i class="fa-solid fa-cart-shopping"></i>cart</p>
+        </div>
+    </div>
+   <div style="align-items: center;">
+      <div id="row1" style="margin-top: 20px; display: flex; flex-wrap: wrap; justify-content: space-around;">
+        <div style="border: 1px solid; width: 400px;">
+          <h3 style=" margin: 20px;">Grate Offers</h3>
+          <div id="row1-1" style="display: flex;
+            flex-wrap: wrap; width: 400px; height: 350px;justify-content: space-around;align-items: center;">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG23/TVs/Sabeer/JUP_23/2x_Desktop_Quad_card_w_title_-_Card_1_copy_40.5x_updated._SY116_CB575872363_.jpg" alt="">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG23/TVs/Sabeer/JUP_23/2x_Desktop_Quad_card_w_title_-_Card_1_copy_40.5x_updated._SY116_CB575872363_.jpg" alt="">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG23/TVs/Sabeer/JUP_23/2x_Desktop_Quad_card_w_title_-_Card_1_copy_40.5x_updated._SY116_CB575872363_.jpg" alt="">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG23/TVs/Sabeer/JUP_23/2x_Desktop_Quad_card_w_title_-_Card_1_copy_40.5x_updated._SY116_CB575872363_.jpg" alt="">
+          </div>
+        </div>
+
+        <div style="border: 1px solid; width: 400px;">
+          <h3 style=" margin: 10px 10px 0px 10px ">Starting ₹349 | Bestselling headphones</h3>
+          <div id="row1-2" style="display: flex;
+          flex-wrap: wrap; width: 400px; height: 350px;justify-content: space-around;align-items: center;">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/GW/CC/Headphones_Desktop_Cat_Card_1x_1._SY304_CB575831742_.jpg" alt="">
+        </div>
+      </div>
+
+    </div> 
+    <div id="products">
+      <div class="product">
+          <h2>Phone</h2>
+         <img src="./phone.jpg" width="280px" alt="">
+          <p>Price:Rs 15000/-</p>
+          <button onclick="addToCart('Product 1', 19.99)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+          <h2>HeadPhones</h2>
+          <img src="./71z97HfSZxS._SY450_.jpg" alt="" width="300px">
+          <p>Price: Rs 300/-</p>
+          <button onclick="addToCart('Product 2', 24.99)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+          <h2>Watches </h2>
+          <img src="./618mFEP9mTL._AC_SS300_.jpg" alt="">
+          <p>Price:Rs 499/-</p>
+          <button onclick="addToCart('Product 3', 14.99)">Add to Cart</button>
+      </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    
+  </script>
+    
+</body>
+</html>

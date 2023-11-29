@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cart2.css">
+</head>
+<body>
+    <section>
+        <div>
+            <div style="text-align: center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px;";>
+                <h1>SnapCart</h1>
+            </div>
+            <div id="main" ">
+                <div id="main1"> 
+                    <h1 style="font-size: 25px;">Create Account</h1>
+                    <form onsubmit="return submitForm()" action="./welcome.html" method="get">
+                        <p style="margin-bottom: 0; font-size: 20px ; font-weight:bold;">Your name</p>
+                        <input type="text" name="name" id="name" style="width: 340px; height: 30px;" required>
+                        <br>
+                        <p style="margin-bottom: 0; font-size: 20px ; font-weight:bold;">Email</p>
+                        <input type="email" name="email" id="email" style="width: 340px; height: 30px;" required>
+                        <br>
+                        <p style="margin-bottom:0; font-size: 20px ; font-weight:bold; ">password</p>
+                        <input type="password" name="password" id="password" style="width: 340px; height: 30px;" required>
+                        <input type="checkbox" onclick="myFunction()">show password
+                        <p style="margin-bottom:0; font-size: 20px ; font-weight:bold; ">password again</p>
+                        <input type="password" name="againPassword" id="againPassword" style="width: 340px; height: 30px;" required>
+
+                        <br>
+                        <br>
+                        <div style="display: flex; align-items: center; justify-content: center; ">
+                            <button type="submit" style="width: 350px ;border-radius: 5px;
+                            background-color:#FFD814; height: 30px;">Create Your SnapCart Account </button>
+                        </div>
+                    </form>
+                    
+                    <p style="font-size: 15px;">
+                        By continuing, you agree to Amazon's Conditions of Use and Privacy Notice
+                    </p>
+                    <hr>
+                    <br>
+                    <div style="text-align: center;">
+                        Already Have An Account?<a href="./cart.html">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./cart.js"></script>
+    
+</body>
+</html>

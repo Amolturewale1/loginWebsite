@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cart.css">
+</head>
+<body>
+    <section>
+        <div>
+            <div style="text-align: center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px;";>
+                <h1>SnapCart</h1>
+            </div>
+            <div id="main">
+                <div id="main1"> 
+                    <h1 style="font-size: 25px;">Sign in</h1>
+                    <form onsubmit="return SignUp()" action="./welcome.html" method="get" >
+                        <p style="margin-bottom: 0; font-size: 20px ; font-weight:bold;">Email</p>
+                        <input type="email" name="email" id="email" style="width: 340px; height: 30px;">
+                        <br>
+                        <p style="margin-bottom:0; font-size: 20px ; font-weight:bold; ">password</p>
+                        <input type="password" name="password" id="password" value="FakePSW" style="width: 340px; height: 30px;">
+                        <input type="checkbox" onclick="myFunction()">show password
+                        <br>
+                        <br>
+                        <div style="display: flex; align-items: center; justify-content: center; ">
+                            <button id="SignUpButton" type="submit" >sign in</button>
+                        </div>
+                    </form>
+                    
+                    <p style="font-size: 15px;">
+                        By continuing, you agree to Amazon's Conditions of Use and Privacy Notice
+                    </p>
+                    <hr>
+                    <br>
+                    <div style="text-align: center;">
+                        <p style="font-size: 18px; margin: 0;">New To SnapCart?</p>
+                        <br>
+                        <button type="submit" style="width: 350px ;border-radius: 5px; height: 30px;"><a href="./cartAccount.html" style="text-decoration: none; color: black;">Create Your SnapCart Account</a></button>
+                        <br">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./cart.js"></script>
+</body>
+</html>
